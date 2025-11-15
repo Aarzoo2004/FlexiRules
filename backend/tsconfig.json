@@ -3,12 +3,12 @@
   "compilerOptions": {
     // File Layout
     // "rootDir": "./src",
-    // "outDir": "./dist",
+    "outDir": "./dist",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "commonjs",
-    "target": "esnext",
+    "module": "nodenext",
+    "target": "es2020",
     // "types": [],
     // For nodejs:
     // "lib": ["esnext"],
@@ -40,5 +40,10 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
+
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
   }
 }
