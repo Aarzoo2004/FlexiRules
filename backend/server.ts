@@ -1,10 +1,6 @@
-// import express from "express"
-// import dotenv from "dotenv"
-// import app from "./app"
-
-const express = require("express")
-const dotenv = require("dotenv")
-const app = require("./app")
+import express from "express"
+import dotenv from "dotenv"
+import app from "./app.js"
 
 const PORT = process.env.PORT || 5000
 
