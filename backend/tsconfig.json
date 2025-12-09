@@ -7,7 +7,7 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "module": "ESNext",
     "target": "es2020",
     // "types": [],
     // For nodejs:
@@ -42,9 +42,38 @@
     "skipLibCheck": true,
 
    
-    "moduleResolution": "nodenext",
+    "moduleResolution": "bundler",
     // "esModuleInterop": true,
     // "resolveJsonModule": true,
 
   }
 }
+
+
+
+// {
+//   "compilerOptions": {
+//     "target": "ES2022",
+//     "useDefineForClassFields": true,
+//     "module": "ESNext",
+//     "lib": ["ES2022", "DOM", "DOM.Iterable"],
+//     "types": [],
+//     "skipLibCheck": true,
+
+//     /* Bundler mode */
+//     "moduleResolution": "bundler",
+//     "allowImportingTsExtensions": true,
+//     "verbatimModuleSyntax": true,
+//     "moduleDetection": "force",
+//     "noEmit": true,
+
+//     /* Linting */
+//     "strict": true,
+//     "noUnusedLocals": true,
+//     "noUnusedParameters": true,
+//     // "erasableSyntaxOnly": true,
+//     "noFallthroughCasesInSwitch": true,
+//     "noUncheckedSideEffectImports": true
+//   },
+//   "include": ["src"]
+// }
