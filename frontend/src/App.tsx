@@ -1,10 +1,14 @@
-function App() {
+// src/App.tsx
+import React from "react";
+import MainLayout from "./layout/MainLayout";
+import RulesListPage from "./pages/RulesListPage";
 
+const App: React.FC = () => {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
-  )
-}
+    <MainLayout>
+      <RulesListPage />
+    </MainLayout>
+  );
+};
 
-export default App
+export default App;
